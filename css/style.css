@@ -1,0 +1,60 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #122033;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 300px;
+  margin: 80px auto 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #122033;
+  box-shadow: -4px -4px 5px #dddddd1c, 4px 4px 5px #0d1725;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #122033;
+  box-shadow: -2px -2px 5px #dddddd1c, 2px 2px 5px #09101a;
+  border: 1px solid #0e1929;
+  border-radius: 3px;
+  box-sizing: border-box;
+  outline: none;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0 4px 4px;
+  border-bottom: 1px solid #09101b;
+  color: #fff;
+}
